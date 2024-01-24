@@ -6,7 +6,7 @@ import { getUserCartList, userLogin } from './api/user';
 import { updateCartItem } from './Redux/actionTypes';
 import { useDispatch } from 'react-redux';
 
-const App = () => {
+const App = () => { 
   const dispatch = useDispatch();
   const checkTokenExpiration = async () => {
     const otplessUserToken = JSON.parse(localStorage.getItem("otpless_user_token"));

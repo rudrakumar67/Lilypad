@@ -1,0 +1,78 @@
+.vision-second-section-container {
+    overflow: hidden;
+    background-color: #121E1D;
+}
+
+.vision-second-left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.vision-second-title {
+    font-weight: 700;
+    line-height: 55px;
+    color: white;
+}
+
+.vision-second-title span {
+    color: #19DB92;
+}
+
+.vision-second-description {
+    color: white;
+    letter-spacing: 0.4px;
+    line-height: 26px;
+}
+
+.vision-second-right-container {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.vision-hands-img {
+    opacity: 20%;
+}
+
+@media screen and (min-width: 200px) {
+    .vision-second-section-container {
+        height: 90vh;
+    }
+
+    .vision-second-left-container {
+        padding: 10% 6%;
+        text-align: center;
+    }
+
+    .vision-second-title {
+        font-size: 37px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .vision-second-section-container {
+        height: 50vh;
+    }
+
+    .vision-second-left-container {
+        padding: 6% 6%;
+    }
+
+    .vision-second-title {
+        font-size: 47px;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .vision-second-section-container {
+        height: 85vh;
+    }
+
+    .vision-second-left-container {
+        padding: 0% 6%;
+        text-align: left;
+    }
+}

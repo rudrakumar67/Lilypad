@@ -1,0 +1,27 @@
+.top-section {
+  margin-left: 70px;
+  margin-right: 90px;
+}
+.section-alignment {
+  margin-left: 70px;
+  margin-right: 90px;
+  padding-top: 3%;
+  border-bottom: 1px solid gray;
+  padding-bottom: 7px;
+}
+.text-color {
+  color: gray;
+  border-bottom: 1px solid gray;
+  margin-right: 16px;
+  font-weight: 600;
+  padding-bottom: 7px;
+
+  &:hover {
+    color: #04b2a9;
+    border-bottom-color: #04b2a9;
+  }
+}
+.li-alignment {
+  margin-bottom: 10px;
+  font-weight: 400;
+}

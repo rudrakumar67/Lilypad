@@ -1,0 +1,100 @@
+@font-face {
+    font-family: outlined;
+    src: url("../../../assets/fonts/Goffik-O.ttf");
+}
+
+/* container */
+.second-main-container {
+    overflow: hidden;
+}
+
+/* left container */
+.second-left-container {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-left-sub-container {
+    display: flex;
+    justify-content: start;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.second-title {
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.second-description {
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.second-read-more-btn {
+    color: black;
+    width: 0%;
+    font-weight: 500;
+    padding: 0px !important;
+}
+
+/* right container */
+.second-right-container {
+    background-position: center;
+    filter: grayscale(100%);
+}
+
+.second-style {
+    font-family: outlined;
+    position: absolute;
+    bottom: -44px;
+    left: -123px;
+    letter-spacing: 15px;
+    font-weight: 900;
+    font-size: 100px;
+    z-index: 100;
+    color: #b8b6b6;
+    mix-blend-mode: difference;
+}
+
+@media screen and (min-width: 200px) {
+    .second-main-container {
+        height: 100vh;
+    }
+
+    .second-left-container {
+        padding: 0% 8%;
+    }
+
+    .second-style {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .second-main-container {
+        height: 45vh;
+    }
+
+    .second-style {
+        display: flex;
+    }
+
+    .second-left-container {
+        padding: 4% 4%;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .second-main-container {
+        height: 100vh;
+    }
+
+    .second-left-container {
+        padding: 8% 12%;
+    }
+}

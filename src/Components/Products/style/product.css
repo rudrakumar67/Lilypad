@@ -1,0 +1,26 @@
+.third-card-img-container {
+    width: 100%;
+    padding: 10% 0%;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.card-details-container {
+    padding: 10% 0%;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-card-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.third-card-price {
+    color: #04b2a9;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}

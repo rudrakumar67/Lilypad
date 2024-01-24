@@ -1,0 +1,54 @@
+/* Example.css */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center;
+    align-items: center;
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-title {
+    text-wrap: nowrap;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.about-description {
+    letter-spacing: 0.4px;
+    line-height: 27px;
+}
+
+.text-right, .text-left {
+    display: flex;
+    flex-direction: column;
+}
+.text-right {
+    padding: 0 20% 0 0;
+}
+.text-left {
+    padding: 0 0 0 20%;
+}
+
+@media (max-width: 768px) {
+    .container {
+    }
+    .text-right, .text-left {
+        padding: 0 20% 2% 20%;
+    }
+    .about-title {
+        font-weight: 500px;
+        font-size: 2rem;
+    }
+    .text-left {
+        order: 2;
+    }
+    .image-class {
+        height: 25rem;
+    }
+}

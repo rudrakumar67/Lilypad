@@ -1,0 +1,122 @@
+/* container */
+.first-main-container {
+    background-image: linear-gradient(to right, #04B2A9, #19DB92);
+}
+
+/* left container */
+.first-left-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 8%;
+}
+
+.first-left-sub-container {
+    gap: 25px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.first-title {
+    color: white;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.first-description {
+    color: white;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.first-explore-btn {
+    background: transparent;
+    color: white;
+    font-size: 13px;
+    height: 40px;
+    border: 1px solid white;
+}
+
+.first-explore-btn:hover {
+    background-color: white;
+    border-color: #04B2A9 !important;
+    color: #04B2A9 !important;
+}
+
+/* right container*/
+.vector1 {
+    width: 340px !important;
+    height: 340px !important;
+}
+
+.vector2 {
+    position: absolute;
+    top: -180px;
+    left: -350px;
+    width: 350px !important;
+    height: 350px !important;
+}
+
+@media screen and (min-width: 200px) {
+    .first-main-container {
+        height: 100vh;
+    }
+
+    .first-title {
+        font-size: 32px;
+    }
+
+    .first-right-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-explore-btn {
+        width: 50%;
+    }
+
+    .first-left-container {
+        padding: 0% 8%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .first-main-container {
+        height: 45vh;
+    }
+
+    .first-title {
+        font-size: 38px;
+    }
+
+    .first-explore-btn {
+        width: 50%;
+    }
+
+    .first-left-container {
+        padding: 0% 4%;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .first-main-container {
+        height: 89vh;
+    }
+
+    .first-explore-btn {
+        width: 40%;
+    }
+
+    .first-left-container {
+        padding: 0% 8%;
+    }
+
+    .first-title {
+        font-size: 47px;
+    }
+}

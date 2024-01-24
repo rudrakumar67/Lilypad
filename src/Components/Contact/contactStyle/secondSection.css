@@ -1,0 +1,113 @@
+.contact-second-section-container {
+    display: flex;
+    justify-content: center;
+    padding: 6% 0%;
+}
+
+.contact-second-sub-container {
+    background-image: url("../../../assets/images/Vector24.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 3% 0%;
+}
+
+.contact-second-title {
+    color: white;
+    font-weight: 700;
+}
+
+.contact-second-description {
+    color: white;
+    font-weight: 400;
+}
+
+.contact-space-container {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-subscribe-input {
+    padding: 0% 4%;
+}
+
+.contact-subscribe-btn {
+    background: linear-gradient(to right, #04B2A9, #19DB92);
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+@media screen and (min-width: 200px) {
+    .contact-second-section-container {
+        margin-top: 100%;
+    }
+
+    .contact-subscribe-input {
+        width: 180px;
+        height: 30px;
+    }
+
+    .contact-subscribe-btn {
+        height: 30px;
+        width: 100px;
+    }
+
+    .contact-second-title {
+        font-size: 5vmin;
+    }
+
+    .contact-second-description {
+        font-size: 3vmin;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .contact-second-section-container {
+        margin-top: 0%;
+    }
+
+    .contact-subscribe-input {
+        width: 440px;
+        height: 50px;
+    }
+
+    .contact-second-description {
+        font-size: 3dvh;
+    }
+
+    .contact-second-title {
+        font-size: 5vmin;
+    }
+
+    .contact-subscribe-btn {
+        height: 50px;
+        width: 120px;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .contact-subscribe-input {
+        width: 440px;
+        height: 60px;
+    }
+
+    .contact-subscribe-btn {
+        height: 60px;
+        width: 120px;
+    }
+
+    .contact-second-title {
+        font-size: 7vmin;
+    }
+
+    .contact-second-description {
+        font-size: 5vmin;
+    }
+}

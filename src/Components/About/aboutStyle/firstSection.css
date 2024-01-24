@@ -1,0 +1,63 @@
+.about-first-section-container {
+    background-image: url("../../../assets/images/Vector9.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-first-sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-first-title {
+    color: white;
+    font-size: 7.5vmin;
+    font-weight: 700;
+}
+
+.about-first-description {
+    color: white;
+    letter-spacing: 0.4px;
+}
+
+@media screen and (min-width: 200px) {
+    .about-first-sub-container {
+        text-align: center;
+    }
+
+    .about-first-title {
+        line-height: 50px;
+    }
+
+    .about-first-section-container {
+        height: 20vh
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .about-first-section-container {
+        height: 27vh
+    }
+
+    .about-first-title {
+        line-height: 100px;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .about-first-sub-container {
+        text-align: center;
+    }
+
+    .about-first-title {
+        line-height: 60px;
+    }
+
+    .about-first-section-container {
+        height: 44vh
+    }
+}

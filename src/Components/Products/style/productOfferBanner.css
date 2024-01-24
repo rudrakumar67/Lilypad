@@ -1,0 +1,111 @@
+/* container */
+.product-offer-banner {
+    background-image: linear-gradient(to right, #151320, #322328);
+  }
+  
+  /* left container */
+  .product-offer-banner-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 8%;
+  }
+  
+  .product-offer-banner-content {
+    gap: 25px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+  }
+  
+  .product-offer-banner-title {
+    color: white;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+  
+  .product-offer-banner-description {
+    color: white;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 300;
+  }
+  
+  .product-offer-banner-explore-btn {
+    background: transparent;
+    color: white;
+    font-size: 13px;
+    height: 40px;
+    border: 1px solid white;
+  }
+  
+  .product-offer-banner-explore-btn:hover {
+    background-color: white;
+    border-color: #04B2A9 !important;
+    color: #04B2A9 !important;
+  }
+  
+
+  
+  @media screen and (min-width: 200px) {
+    .product-offer-banner {
+      height: 100vh;
+    }
+  
+    .product-offer-banner-title {
+      font-size: 32px;
+    }
+  
+    .product-offer-banner-right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .product-offer-banner-explore-btn {
+      width: 50%;
+    }
+  
+    .product-offer-banner-left {
+      padding: 0% 8%;
+    }
+  }
+  
+  @media screen and (min-width: 576px) {
+    .product-offer-banner {
+      height: 45vh;
+    }
+  
+    .product-offer-banner-title {
+      font-size: 38px;
+    }
+  
+    .product-offer-banner-explore-btn {
+      width: 50%;
+    }
+  
+    .product-offer-banner-left {
+      padding: 0% 4%;
+    }
+  }
+  
+  @media screen and (min-width: 860px) {
+    .product-offer-banner {
+      height: 89vh;
+    }
+  
+    .product-offer-banner-explore-btn {
+      width: 40%;
+    }
+  
+    .product-offer-banner-left {
+      padding: 0% 8%;
+    }
+  
+    .product-offer-banner-title {
+      font-size: 47px;
+    }
+  }
+  

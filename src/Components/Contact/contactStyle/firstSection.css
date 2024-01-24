@@ -1,0 +1,144 @@
+.contact-first-section-container {
+    padding: 5% 0%;
+}
+
+.contact-first-left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-first-left-top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contact-first-sub-title {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: gray;
+    line-height: 10px;
+}
+
+.contact-first-title {
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.contact-first-description {
+    letter-spacing: 0.4px;
+    width: 60%;
+    color: gray;
+}
+
+.contact-input {
+    padding-left: 0px;
+    border: none;
+    border-radius: 0px;
+    height: 44px;
+    border-bottom: 1px solid rgb(210, 210, 210);
+    margin-bottom: 4%;
+}
+
+.contact-input:focus {
+    box-shadow: none !important;
+    border-color: rgb(70, 70, 70) !important;
+}
+
+.contact-input::placeholder {
+    color: rgb(106, 106, 106) !important;
+}
+
+.contact-btn {
+    background: linear-gradient(to right, #04B2A9, #19DB92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 40px;
+    width: 150px;
+}
+
+.contact-btn:hover {
+    background: white !important;
+    color: #04B2A9 !important;
+    border: 1.4px solid #04B2A9 !important;
+}
+
+/* right */
+.contact-first-right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-first-right-sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.contact-company-info-container {
+    margin-top: 3%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contact-info-sub-text {
+    font-weight: 500;
+}
+
+.contact-icon {
+    margin-right: 4%;
+}
+
+@media screen and (min-width: 200px) {
+    .contact-first-section-container {
+        height: 110vh;
+    }
+
+    .contact-first-left-container {
+        padding: 20% 6%;
+    }
+
+    .contact-first-right-container {
+        padding: 8%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .contact-first-section-container {
+        height: 60vh;
+    }
+
+    .contact-first-left-container {
+        padding: 7% 6%;
+    }
+
+    .contact-first-right-container {
+        padding: 0%;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .contact-first-section-container {
+        height: 110vh;
+    }
+
+    .contact-first-left-container {
+        padding: 3% 6%;
+    }
+}

@@ -1,0 +1,107 @@
+/* container */
+.fourth-section-container {
+    padding: 5% 0%;
+    height: 100vh;
+}
+
+/* left container */
+.fourth-left-container {
+    height: 100%;
+    padding: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-left-sub-container {
+    gap: 25px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+/* title */
+.fourth-title {
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+/* right container */
+.fourth-right-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #19DB92, #04B2A9);
+}
+
+/* cards */
+.fourth-card-container {
+    box-shadow: 5px 5px 10px #aaaaaa92;
+    background-color: white;
+    padding: 5% 5%;
+    border-radius: 15px;
+}
+
+.fourth-card-avatar {
+    border: 2px solid #6ee7e1;
+    border-radius: 50px;
+}
+
+.fourth-card-avatar-container {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.fourth-card-name-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth-card-name {
+    color: #04B2A9;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+.fourth-card-description-container {
+    margin-top: 4%;
+}
+
+
+
+@media screen and (min-width: 200px) {
+    .fourth-section-container {
+        height: 45vh;
+        margin-bottom: 80%;
+    }
+
+    .fourth-left-container {
+        padding: 6% 8%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .fourth-section-container {
+        height: 45vh;
+        margin-bottom: 0%;
+    }
+
+    .fourth-left-container {
+        padding: 3% 4%;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .fourth-section-container {
+        height: 100vh;
+        margin-bottom: 0%;
+    }
+
+    .fourth-left-container {
+        padding: 6% 8%;
+    }
+}

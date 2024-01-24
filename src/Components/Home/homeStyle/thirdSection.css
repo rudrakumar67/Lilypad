@@ -1,0 +1,123 @@
+/* left container */
+.third-left-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-left-sub-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: start;
+}
+
+/* title */
+.third-title {
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.third-description {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+/* button */
+.third-view-all-btn {
+    background: linear-gradient(to right, #04B2A9, #19DB92);
+    color: white;
+    height: 40px;
+    width: 150px;
+}
+
+.third-view-all-btn:hover {
+    background: white;
+    color: #04B2A9 !important;
+    border: 1.4px solid #04B2A9 !important;
+}
+
+/* right container */
+.third-right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* cards */
+.third-right-container .ant-card .ant-card-body {
+    padding: 0px 0px !important;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.third-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-card-img-container {
+    width: 100%;
+    padding: 10% 0%;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.card-details-container {
+    padding: 10% 0%;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-card-title {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.third-card-price {
+    color: #04B2A9;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+}
+
+
+@media screen and (min-width: 200px) {
+    .third-section-container {
+        height: 100vh;
+    }
+
+    .third-left-container {
+        padding: 6% 8%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .third-section-container {
+        height: 45vh;
+    }
+
+    .third-left-container {
+        padding: 3% 4%;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .third-section-container {
+        height: 100vh;
+    }
+
+    .third-left-container {
+        padding: 6% 8%;
+    }
+}

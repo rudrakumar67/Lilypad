@@ -1,0 +1,136 @@
+.powering-top-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 10px;
+    background-color: #04B2A9;
+    color: #FFFFFF !important;
+}
+
+.powering-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    gap: 10px;
+}
+
+.image-section {
+  width: 130px;
+}
+
+.powering-fourth-title {
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 600;
+    color: #FFF;
+    font-family: 'Avenir Next LT Pro', sans-serif;    
+}
+
+.about-fourth-description {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #FFF;
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    margin-top: 10px;
+}
+
+.about-founder-container {
+    background-image: url('/public/images/founder background.png');
+  
+  /* Set the background size to cover the entire element */
+    background-size: cover;
+    height: 313px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.about-founder-title {
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #FFF;
+    font-family: 'Avenir Next LT Pro', sans-serif;    
+}
+
+.about-founder-description {
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #FFF;
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    margin-top: 15px;
+}
+
+.about-bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-second-left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.about-second-title {
+    font-size: 47px;
+    font-weight: 700;
+}
+
+.about-second-description {
+    letter-spacing: 0.4px;
+    line-height: 27px;
+}
+
+.about-second-right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 200px) {
+    .powering-top-container {
+        padding: 10% 10%;
+    }
+
+    .vector12 {
+        width: 320px !important;
+        margin-bottom: 10%;
+    }
+
+}
+
+@media screen and (min-width: 576px) {
+    .powering-top-container {
+        padding: 10% 24%;
+    }
+
+    .vector12 {
+        width: 600px !important;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    .about-founder-section-container {
+        padding: 5% 10% 2%;
+    }
+    .about-founder-container {
+        padding: 6% 8%;
+    }
+    .powering-top-container {
+        padding: 3% 8%;
+    }
+
+    .vector12 {
+        width: 900px !important;
+        margin-bottom: 0%;
+    }
+}
